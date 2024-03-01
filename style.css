@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bg {
+  background: linear-gradient(104.01deg, #1d3148 0.61%, #121826 99.08%);
+}
+
+.logo-bg {
+  color: #ffffff;
+}
+
+.text-color,
+.text-colorS {
+  color: #ffffff;
+}
+.text-colorS:hover {
+  color: #000;
+}
+.nav-btn-inside {
+  width: 103.38px;
+  height: 39.19px;
+  padding: 13.59px, 27.19px, 13.59px, 27.19px;
+  border-radius: 29.23px;
+  gap: 6.8px;
+  background: #edcd54;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.pro-img img {
+  width: 40vw;
+  height: 80vh;
+}
+
+.nav-line {
+  width: 100%;
+  height: 6px;
+  background: #163a59;
+}
+
+.top-mid {
+  overflow: hidden;
+  background: linear-gradient(104.01deg, #1d3148 0.61%, #121826 99.08%);
+}
+.top-mid-upperText {
+  width: 528px;
+  height: 219px;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.top-mid-lowerText {
+  width: 510px;
+  height: 63px;
+  color: #a6b6c4;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Social {
+  color: #edcd54;
+}
+.Alternative {
+  background: linear-gradient(85.57deg, #bbeaf3 -45.99%, #58b6d3 100%);
+}
+.top-form {
+  width: 420px;
+  height: 494px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9.42px;
+  background: linear-gradient(0deg, #09243c, #09243c),
+    linear-gradient(0deg, #163a59, #163a59);
+  border: 2.83px solid #163a59;
+}
+.top-mid-form img {
+  width: 50vw;
+  height: 70vh;
+}
+/* Hero section end */
+
+.nav-btns-inside {
+  width: 173.38px;
+  height: 39.19px;
+  padding: 13.59px, 27.19px, 13.59px, 27.19px;
+  border-radius: 29.23px;
+  gap: 6.8px;
+  background: #edcd54;
+  font-weight: 700;
+}
+
+.tg {
+  color: #1877f2;
+}
+
+.integration-heading button {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #062a49;
+}
+
+.pro-head {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  /* text-align: center; */
+  color: #edcd54;
+}
+.pro-para {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0em;
+  /* text-align: center; */
+  color: #a6b6c4;
+}
+
+.yhc {
+  color: #062a49;
+}
+.yhp {
+  color: gray;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+  /* For example: */
+  .top-mid {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column-reverse !important;
+  }
+  .top-mid-upperText {
+    /* width: 200px; */
+    /* height: 219px; */
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    /* line-height: 61px; */
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+  }
+  .top-mid-lowerText {
+    /* width: 510px; */
+    /* height: 63px; */
+    color: #a6b6c4;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 24px; */
+    text-align: center;
+  }
+  .top-mid-form img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .mobile {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column-reverse !important;
+  }
+  .product {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .pro-img img {
+    width: 60vw;
+    height: 30vh;
+    padding-top: 2rem;
+  }
+
+  .pro-head {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #edcd54;
+    padding: 0.2rem;
+    padding-top: 2rem;
+  }
+  .pro-para {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #a6b6c4;
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .nav-btn-inside {
+    margin-top: 1rem;
+    width: 100.38px;
+    height: 30.19px;
+    padding: 13.59px, 27.19px, 13.59px, 27.19px;
+    border-radius: 29.23px;
+    gap: 4.8px;
+    background: #edcd54;
+    font-weight: 500;
+    /* margin-left: 1rem; */
+  }
+
+  .nav-line {
+    width: 100%;
+    height: 2px;
+    background: #163a59;
+  }
+  /* more styles as needed */
+}
