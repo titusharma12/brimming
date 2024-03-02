@@ -17,8 +17,10 @@
   color: #ffffff;
 }
 .text-colorS:hover {
-  color: #000;
+  color: #000000;
 }
+
+
 .nav-btn-inside {
   width: 103.38px;
   height: 39.19px;
@@ -99,6 +101,15 @@
   gap: 6.8px;
   background: #edcd54;
   font-weight: 700;
+}
+
+.nav-btn-inside:hover{
+    background: #f0c323;
+    color: #000000;
+}
+.nav-btns-inside:hover{
+    background: #f1c31c;
+    color: #000000;
 }
 
 .tg {
@@ -235,3 +246,15 @@
   }
   /* more styles as needed */
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    /* For example: */
+    /* .container {
+      width: 80%;
+      margin: 0 auto;
+    } */
+    /* Add more styles as needed */
+  }
+  
